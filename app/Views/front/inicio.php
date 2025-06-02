@@ -58,7 +58,7 @@
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Camiseta Clásica 90's</h5>
           <p class="card-text">Revive los mejores momentos del fútbol con esta camiseta icónica de los años 90.</p>
-          <p class="card-text fw-bold">$59.99</p>
+          <p class="card-text fw-bold">$59000.99</p>
           <button class="btn btn-success mt-auto">Agregar al carrito</button>
         </div>
       </div>
@@ -70,7 +70,7 @@
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Camiseta Clásica 90's</h5>
           <p class="card-text">Revive los mejores momentos del fútbol con esta camiseta icónica de los años 90.</p>
-          <p class="card-text fw-bold">$59.99</p>
+          <p class="card-text fw-bold">$59000.99</p>
           <button class="btn btn-success mt-auto">Agregar al carrito</button>
         </div>
       </div>
@@ -82,7 +82,7 @@
         <div class="card-body d-flex flex-column">
           <h5 class="card-title">Camiseta Clásica 90's</h5>
           <p class="card-text">Revive los mejores momentos del fútbol con esta camiseta icónica de los años 90.</p>
-          <p class="card-text fw-bold">$59.99</p>
+          <p class="card-text fw-bold">$59000.99</p>
           <button class="btn btn-success mt-auto">Agregar al carrito</button>
         </div>
       </div>
