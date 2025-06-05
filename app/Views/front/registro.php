@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <title>Registrate - Fútbol Retro Shop</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/estilos.css">
 </head>
-<body>
-
-<div class="container mt-5">
-    <h1 class="mb-3 text-center">Crear Cuenta</h1>
+<body class="d-flex flex-column min-vh-100">
+<div class="container my-5 flex-fill">
+    <h1 class="mb-4 text-center">Crear Cuenta</h1>
 
     <?php if(session()->getFlashdata('success')): ?>
         <div class="alert alert-success" id="success-alert">
@@ -49,14 +49,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-// Hacer desaparecer la alerta después de 2 segundos
-setTimeout(function() {
-    var alert = document.getElementById('success-alert');
-    if (alert) {
-        alert.style.display = 'none';
-    }
+setTimeout(() => {
+    const alert = document.getElementById('success-alert');
+    if(alert) alert.style.display = 'none';
 }, 2000);
 </script>
-
 </body>
 </html>
